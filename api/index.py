@@ -2,9 +2,6 @@
 
 from fastapi import FastAPI
 
-URL_PATH_PREFIX = '/api/'
-
-
 app = FastAPI(
     title="Vercel FastAPI template",
     description="A starter template for FastAPI backends in Vercel deployments",
